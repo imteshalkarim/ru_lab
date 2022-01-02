@@ -20,7 +20,7 @@ void main()
     printf("Prime number \n");
     else
     printf("Not a prime number\n");
-    printf("Now printing prime numbers from 1 to 100\n");
+    printf("Now printing prime numbers less than 100\n");
     for(int x=1;x<=100;x++)
     {
         int fa=2,ctr=0;

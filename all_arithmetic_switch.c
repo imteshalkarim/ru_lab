@@ -5,7 +5,7 @@ void main()
 {
     int a,b,r;
     char ch;
-    printf("Here are the options");
+    printf("Here are the options\n");
     printf("+ - Addition \n - - Subtraction \n * - Multiplication \n / - Division \n % - Modulus\n");
     printf("Enter two numbers\n");
     scanf("%d %d", &a, &b);
