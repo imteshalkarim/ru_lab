@@ -9,7 +9,7 @@ void main()
     while(n<=10)
     {
         p=x*n;
-        printf("%d  x  %d  =  %d \n",x,n,p);
+        printf("%d  x  %d   =   %d \n",x,n,p);
         n++;
     }
     getch();
