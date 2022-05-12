@@ -31,6 +31,7 @@ void main()
     even(a);
     odd(a);
     avg(a);
+    min_max(a);
     getch();
 }
 void even(int arr[10])
@@ -60,4 +61,17 @@ void avg(int arr[10])
     avg=s/10.0;
     printf("Sum = %d\n",s);
     printf("Average = %f\n",avg);
+}
+void min_max(int arr[10])
+{
+    int min=arr[0],max=arr[0];
+    for(int x=0;x<10;x++)
+    {
+        if(arr[x]>max)
+        max=arr[x];
+        if(arr[x]<min)
+        min=arr[x];
+    }
+    printf("Maximum element = %d",max);
+    printf("Minimum element = %d",min);
 }
